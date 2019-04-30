@@ -150,6 +150,7 @@ class UrlWhitelist(set):
 DEFAULT_CALENDAR_WHITELIST = \
     UrlWhitelist(['https://*.calendar.opentimestamps.org', # Run by Peter Todd
                   'https://*.calendar.eternitywall.com',   # Run by Riccardo Casatta of Eternity Wall
+                  'https://*.ots.dgi.io',                  # Run by Ferdinando Ametrano of Digital Gold Institute
                   'https://*.calendar.catallaxy.com',      # Run by Vincent Cloutier of Catallaxy
                  ])
 
@@ -157,4 +158,5 @@ DEFAULT_AGGREGATORS = \
     ('https://a.pool.opentimestamps.org',
      'https://b.pool.opentimestamps.org',
      'https://a.pool.eternitywall.com',
+     'https://btc.ots.dgi.io',
      'https://ots.btc.catallaxy.com')
